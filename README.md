@@ -40,6 +40,20 @@ Results file (.csv file):
 
 # Local Testing
  ```docker build -t endouc_submission  ```
+
+ ## 🧠 Where to Implement Your Model
+
+All participant code must be implemented inside:
+
+src/inference.py
+
+Participants are required to provide **inference code only**.
+
+- The code must load the final trained model from `/checkpoints`
+- The code must read images from `/input/images`
+- The code must write predictions to `/output/results.csv`
+
+
  
  ```docker run -v example_input:/input -v example_output:/output endouc_submission ```
 
