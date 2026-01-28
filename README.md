@@ -45,7 +45,7 @@ Results file (.csv file):
 
 All participant code must be implemented inside:
 
-src/inference.py
+```src/inference.py```
 
 Participants are required to provide **inference code only**.
 
